@@ -1,4 +1,35 @@
+# Development of a Comprehensive AI-Driven Financial Advisory System
+
+# Objective: 
+
+### This project aims to construct an advanced AI-driven system capable of providing real-time financial advice by leveraging a state-of-the-art Large Language Model (LLM) fine-tuned on proprietary financial Q&A datasets. The system is designed to be accessible and efficient, catering to users with varying hardware capabilities through the deployment of serverless GPU infrastructures.
+
+### Components:
+
+#### Training Pipeline:
+
+  - Purpose:
+1. To fine-tune an open-source LLM on a proprietary Q&A dataset.
+Key Features:
+2. Utilization of LLM for experiment tracking and inference result logging.
+3. Deployment on serverless GPU infrastructure for enhanced accessibility.
+● Streaming Real-time Pipeline:
+Purpose:
+● To ingest and process real-time financial news, converting them into embeddings
+for enhanced model input.
+Key Features:
+● Automated deployment on AWS EC2 via a GitHub Actions-based CI/CD pipeline.
+● Inference Pipeline:
+Purpose:
+● To provide real-time financial advice by enhancing user queries with context from
+the latest financial news and historical interactions.
+Key Features:
+● Deployment as a RESTful API on a serverless infrastructure, ensuring scalability
+and ease of use.
+
 # Training / Fine-tuning Pipeline 
+
+
 
 Training pipeline that:
 - loads a  Q&A dataset 
